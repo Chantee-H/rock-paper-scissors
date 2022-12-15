@@ -54,7 +54,7 @@ function game(){
     }else if(computerScore >= 3){
         console.log('You Lost the Game!');
     }else{
-        console.log('You Tied');
+        console.log('You Tied!');
     }
 }
 
