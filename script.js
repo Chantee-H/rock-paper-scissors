@@ -14,6 +14,7 @@ function getComputerChoice(){
 
 getComputerChoice();
 
+// Plays a single round of Rock Paper Scissors
 function playRound(playerSelection, computerSelection){
     if(playerSelection === computerSelection){
         return 'Tie!';
@@ -30,4 +31,23 @@ function playRound(playerSelection, computerSelection){
     }else if(playerSelection === 'Rock' && computerSelection === 'Scissors'){
         return 'You win! Rock beats Scissors';
     }
+}
+
+let computerSelection = getComputerChoice();
+let playerScore = 0;
+let computerScore = 0;
+
+// Plays 5 rounds of Rock Paper Scissors
+function game(){
+    for(let i = 0; i < 5; i++){
+        let playerSelection = window.prompt('Choose Rock, Paper or Scissors.');
+        let gameScore = playRound(playerSelection, computerSelection);
+        if(gameScore.includes('You win!')){
+            playerScore += 1;
+        }else if(gameScore.includes('You lose!')){
+            computerScore += 1;
+        }
+        console.log(playRound(playerSelection, computerSelection))
+    }
+    
 }
