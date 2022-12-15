@@ -37,7 +37,7 @@ let computerSelection = getComputerChoice();
 let playerScore = 0;
 let computerScore = 0;
 
-// Plays 5 rounds of Rock Paper Scissors
+// Plays 5 rounds of Rock Paper Scissors and reports a winner or loser
 function game(){
     for(let i = 0; i < 5; i++){
         let playerSelection = window.prompt('Choose Rock, Paper or Scissors.');
@@ -49,5 +49,13 @@ function game(){
         }
         console.log(playRound(playerSelection, computerSelection))
     }
-    
+    if(playerScore >= 3){
+        console.log('You Won the Game!');
+    }else if(computerScore >= 3){
+        console.log('You Lost the Game!');
+    }else{
+        console.log('You Tied');
+    }
 }
+
+game();
