@@ -1,6 +1,5 @@
 'use strict';
 
-// Randomly returns Rock, Paper or Scissors
 function getComputerChoice(){
     const computerChoice = (Math.floor(Math.random() * 3))
     if(computerChoice === 0){
@@ -16,8 +15,6 @@ let computerSelection = getComputerChoice();
 let playerScore = 0;
 let computerScore = 0;
 
-
-// Plays a single round of Rock Paper Scissors
 function playRound(playerSelection){
     let result = '';
     let scores = '';
