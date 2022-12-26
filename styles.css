@@ -22,32 +22,31 @@ body {
 }
 
 .secondary-head {
-font-size: 30px;
-margin-top: 20px;
-color: #66FCF1;
+   font-size: 30px;
+   margin-top: 20px;
+   color: #66FCF1;
 }
 
 button {
-color: #fff;
-width: 120px;
-height: 60px;
-background-color: #C5C6C7;
+   width: 120px;
+   height: 60px;
+   background-color: #C5C6C7;
 }
 
 #winner {
-color: #fff;
-font-size: 25px;
-font-weight: 600;
-margin-top: 25px; 
-margin-bottom: 50px;
+   color: #fff;
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 25px; 
+   margin-bottom: 50px;
 }
 
 #result {
-margin-top: 50px;
+   margin-top: 50px;
 }
 
 #scores {
-margin-top: 20px;
-margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
