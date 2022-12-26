@@ -1,2 +1,2 @@
 # odin-rock-paper-scissors
-This is a game of Rock Paper Scissors, with a simple ui.
+This is a game of Rock Paper Scissors, with a simple UI.
