@@ -62,5 +62,4 @@ button.addEventListener('click', () =>{
 })
 })
 
-console.log(playRound(playerSelection));
 
