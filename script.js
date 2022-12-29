@@ -11,11 +11,11 @@ function getComputerChoice(){
     }
 }
 
-let computerSelection = getComputerChoice();
 let playerScore = 0;
 let computerScore = 0;
 
 function playRound(playerSelection){
+    let computerSelection = getComputerChoice();
     let result = '';
     let scores = '';
     let winner = '';
